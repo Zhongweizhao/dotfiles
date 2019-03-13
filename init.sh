@@ -8,7 +8,6 @@ declare -A PACKAGES=(
 	[".config/i3blocks"]="config/i3blocks"
 
 	[".vim"]="vim"
-	[".vimrc"]="vimrc"
 
 	[".ssh/config"]="ssh/config"
 
@@ -30,4 +29,6 @@ for tar in "${!PACKAGES[@]}"; do
 done
 
 ~/.vim/plugInit.sh
-
+if [[ -e ~/.vimrc ]]; then
+    echo "~/.vimrc exists"
+fi 
