@@ -1,7 +1,7 @@
 alias g++14="g++-5 -std=c++14"
 alias vi="vim"
 
-if [ -f "$HOME/dotfiles/alias.local" ]; then
-    source $HOME/dotfiles/alias.local
+if [ -f "~/alias.local" ]; then
+    source ~/alias.local
 fi
 
