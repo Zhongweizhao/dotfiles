@@ -9,6 +9,7 @@ declare -A PACKAGES=(
 	[".vim"]="vim"
 	[".vimrc"]="vimrc"
 	[".ssh/config"]="ssh/config"
+    [".shell-func"]="shell-func"
 	[".ycm_extra_conf.py"]="ycm_extra_conf.py"
 )
 
