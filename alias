@@ -1,7 +1,0 @@
-alias g++14="g++-5 -std=c++14"
-alias vi="vim"
-
-if [ -f "~/alias.local" ]; then
-    source ~/alias.local
-fi
-

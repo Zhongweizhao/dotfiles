@@ -1,4 +1,4 @@
 /vim/plugged/
-/vim/autoload/vim-plug.vim*
+/vim/autoload/plug.vim*
 *.local
 

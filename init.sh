@@ -1,16 +1,18 @@
 #!/bin/bash
 
 declare -A PACKAGES=(
+	[".bash_profile"]="bash/bash_profile"
+	[".bashrc"]="bash/bashrc"
+
 	[".config/i3"]="config/i3"
 	[".config/i3blocks"]="config/i3blocks"
-	[".alias"]="alias"
-	[".bash_profile"]="bash_profile"
-	[".bashrc"]="bashrc"
+
 	[".vim"]="vim"
 	[".vimrc"]="vimrc"
+
 	[".ssh/config"]="ssh/config"
-    [".shell-func"]="shell-func"
-	[".ycm_extra_conf.py"]="ycm_extra_conf.py"
+
+	[".ycm_extra_conf.py"]="ycm/ycm_extra_conf.py"
 )
 
 for tar in "${!PACKAGES[@]}"; do
