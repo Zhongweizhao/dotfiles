@@ -1,0 +1,31 @@
+#!/bin/zsh
+
+setopt appendhistory histignorealldups sharehistory
+
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+
+setopt autocd
+
+# customization
+# source $DOT/zsh/prompt.zsh
+source $DOT/zsh/keybinds.zsh
+
+# common
+source $DOT/shell/alias
+source $DOT/shell/functions
+
+# --- zplug ---
+ZPLUG_HOME=$DOT/zsh/zplug
+if [[ -r $ZPLUG_HOME/init.zsh ]]; then
+    ZPLUG_LOADFILE=$DOT/zsh/plugins.zsh
+    source $ZPLUG_HOME/init.zsh
+    zplug load
+fi
+
+autoload -U promptinit; promptinit
+
+# optionally define some options
+PURE_PROMPT_SYMBOL=">"
+

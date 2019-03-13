@@ -13,6 +13,9 @@ declare -A PACKAGES=(
 	[".ssh/config"]="ssh/config"
 
 	[".ycm_extra_conf.py"]="ycm/ycm_extra_conf.py"
+
+	[".zshrc"]="zsh/zshrc"
+	[".zshenv"]="zsh/zshenv"
 )
 
 for tar in "${!PACKAGES[@]}"; do

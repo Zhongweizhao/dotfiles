@@ -1,0 +1,19 @@
+export DOT=$(dirname $(dirname $(readlink -f ~/.bashrc)))
+
+[[ $- != *i* ]] && return
+
+if [ -f "~/.profile" ]; then
+    source ~/.profile
+fi
+
+# if [ -r "/usr/share/bash-completion/bash_completion" ]; then
+# 	source "/usr/share/bash-completion/bash_completion"
+# fi
+
+
+# common
+source $DOT/shell/alias
+source $DOT/shell/functions
+
+# bash
+source $DOT/bash/prompt

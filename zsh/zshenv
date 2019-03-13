@@ -1,0 +1,2 @@
+export DOT=$(dirname $(dirname $(readlink -f ~/.zshenv)))
+
