@@ -11,6 +11,8 @@ declare -A PACKAGES=(
 
 	[".ssh/config"]="ssh/config"
 
+	[".tmux.conf"]="tmux/tmux.conf"
+
 	[".ycm_extra_conf.py"]="ycm/ycm_extra_conf.py"
 
 	[".zshrc"]="zsh/zshrc"
