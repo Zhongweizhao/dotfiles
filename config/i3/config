@@ -28,7 +28,11 @@ font pango:monospace 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
-new_window none
+new_window pixel 1
+new_float pixel 1
+
+hide_edge_borders both
+popup_during_fullscreen smart
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
@@ -138,6 +142,7 @@ bindsym $mod+Shift+r restart
 
 bindsym $mod+Tab scratchpad show
 bindsym $mod+Shift+Tab move scratchpad
+bindsym --release $mod+x exec --no-startup-id screenshot
 
 # bindsym $mod+Shift+e exec "i3-msg exit"
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown

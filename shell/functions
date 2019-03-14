@@ -1,3 +1,10 @@
 function mkcd {
     mkdir -p -- "$1" && cd -P -- "$1"
 }
+
+function screenshot {
+    NAME=~/Pictures/screenshot-`date +"%Y%m%d%H%M%S%N".png` 
+    import $NAME 
+    xclip -selection clipboard -t image/png $NAME
+}
+
