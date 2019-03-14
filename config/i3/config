@@ -220,5 +220,5 @@ mode "$mode_launcher" {
 
 for_window [class=".Assignment."] floating enable
 
-exec-always --no-startup-id xset r 150 100
+exec-always --no-startup-id xset r rate 230 50
 

@@ -42,3 +42,11 @@ let g:ctrlp_working_path_mode = 0
 
 let g:ycm_confirm_extra_conf=0
 
+" highlight YcmErrorLine guibg=#3f0000
+" highlight YcmErrorSection guibg=#3f0000
+" highlight YcmErrorSign guibg=#3f0000
+" highlight YcmWarningLine guibg=#3f0000
+" highlight YcmWarningSection guibg=#3f0000
+" highlight YcmWarningSign guibg=#3f0000
+
+
