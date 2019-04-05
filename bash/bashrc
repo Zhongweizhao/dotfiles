@@ -14,6 +14,7 @@ fi
 # common
 source $DOT/shell/alias
 source $DOT/shell/functions
+source $DOT/shell/variables
 
 # bash
 source $DOT/bash/prompt

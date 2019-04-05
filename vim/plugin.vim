@@ -8,6 +8,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'vim-latex/vim-latex'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 

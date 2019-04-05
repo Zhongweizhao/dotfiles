@@ -15,6 +15,7 @@ source $DOT/zsh/keybinds.zsh
 # common
 source $DOT/shell/alias
 source $DOT/shell/functions
+source $DOT/shell/variables
 
 # --- zplug ---
 ZPLUG_HOME=$DOT/zsh/zplug

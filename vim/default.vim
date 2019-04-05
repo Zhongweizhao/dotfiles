@@ -14,3 +14,6 @@ set mouse=a
 set hlsearch
 set backspace=indent,eol,start
 
+" remove trailing white space on save
+autocmd BufWritePre * :%s/\s\+$//e
+
