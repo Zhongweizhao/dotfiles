@@ -41,6 +41,8 @@ let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_working_path_mode = 0
 
 let g:ycm_confirm_extra_conf=0
+let g:ycm_max_diagnostics_to_display=0
+let g:ycm_log_level='debug'
 
 highlight YcmErrorLine guibg=#3f0000
 highlight YcmErrorSection guibg=#3f0000

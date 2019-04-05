@@ -1,6 +1,8 @@
 alias g++14="g++-5 -std=c++14"
 alias vi="vim"
 alias ls="ls --color=auto"
+alias ssh="TERM=xterm ssh"
+alias sudo="sudo "
 
 if [ -e "$HOME/alias.local" ]; then
     source $HOME/alias.local
