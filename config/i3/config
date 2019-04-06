@@ -142,7 +142,7 @@ bindsym $mod+Shift+r restart
 
 bindsym $mod+Tab scratchpad show
 bindsym $mod+Shift+Tab move scratchpad
-bindsym --release $mod+x exec --no-startup-id screenshot
+bindsym --release $mod+x exec --no-startup-id /bin/bash -lic 'screenshot'
 
 # bindsym $mod+Shift+e exec "i3-msg exit"
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
