@@ -13,6 +13,7 @@ set number relativenumber
 set mouse=a
 set hlsearch
 set backspace=indent,eol,start
+set tabpagemax=100
 
 " remove trailing white space on save
 autocmd BufWritePre * :%s/\s\+$//e
