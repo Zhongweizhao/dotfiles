@@ -13,6 +13,7 @@ declare -A PACKAGES=(
 	[".ssh/config"]="ssh/config"
 
 	[".tmux.conf"]="tmux/tmux.conf"
+    [".xinitrc"]="xorg/xinitrc"
 
 	[".ycm_extra_conf.py"]="ycm/ycm_extra_conf.py"
 
