@@ -4,8 +4,8 @@ declare -A PACKAGES=(
 	[".bash_profile"]="bash/bash_profile"
 	[".bashrc"]="bash/bashrc"
 
-	[".config/i3"]="config/i3"
-	[".config/i3blocks"]="config/i3blocks"
+	[".config/i3"]="i3"
+	[".config/i3blocks"]="i3blocks"
 
 	[".vim"]="vim"
 
@@ -25,7 +25,7 @@ for tar in "${!PACKAGES[@]}"; do
 	if [ -e "$PWD/$src" ]; then
 		rm -rf "$HOME/$tar"
 		ln -sv "$PWD/$src" "$HOME/$tar"
-	else 
+	else
 		echo "Error: $file does not exist." 1>&2
     fi
 done
@@ -33,4 +33,4 @@ done
 ~/.vim/plugInit.sh
 if [[ -e ~/.vimrc ]]; then
     echo "~/.vimrc exists"
-fi 
+fi

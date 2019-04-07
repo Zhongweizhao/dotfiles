@@ -37,7 +37,7 @@ color=#f3f4f5
 # The address can be forced to IPv4 or IPv6 with -4 or -6 switches.
 [iface]
 label=
-IFACE=enp0s25
+IFACE=enp3s0
 color=#00FF00
 interval=10
 separator=true
