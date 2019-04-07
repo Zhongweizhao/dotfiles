@@ -1,4 +1,4 @@
-# dotfiles 
+# dotfiles
 
 ## Getting Started
 
@@ -22,6 +22,7 @@ i3, tmux
 
 ### Installing
 
+#### Init
 ```
 cd
 git clone https://github.com/Zhongweizhao/dotfiles
@@ -32,8 +33,17 @@ cd ~/.vim/plugged/YouCompleteMe
 ./install.py --clang-completer
 ```
 
-and 
+#### Remove local vimrc
+Use ~/.vim/vimrc
 ```
 rm ~/.vimrc
+```
+
+#### zplug
+```
+cd ~/dotfiles/zsh
+git clone https://github.com/zplug/zplug
+source ~/.zshrc
+zplug install
 ```
 
