@@ -33,10 +33,12 @@ cd ~/.vim/plugged/YouCompleteMe
 ./install.py --clang-completer
 ```
 
-#### Remove local vimrc
-Use ~/.vim/vimrc
+#### Remove rc in home directory
 ```
+# Use ~/.vim/vimrc
 rm ~/.vimrc
+# Use ~/.config/git/config
+rm ~/.gitconfig
 ```
 
 #### zplug

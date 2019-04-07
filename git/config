@@ -1,0 +1,27 @@
+[alias]
+    l = log
+    st = status
+    amend = commit --amend
+
+[user]
+    email = zhongweizhao2016@gmail.com
+    name = Zhongwei Zhao
+[format]
+    pretty = oneline
+[core]
+    editor = vim
+[status]
+    branch = true
+    short = true
+[commit]
+    verbose = true
+[pull]
+    ff = only
+[log]
+    decorate = short
+    abbrevCommit = true
+[grep]
+    lineNumber = true
+[gc]
+    reflogExpire = never
+    pruneExpire = never

@@ -6,6 +6,7 @@ declare -A PACKAGES=(
 
 	[".config/i3"]="i3"
 	[".config/i3blocks"]="i3blocks"
+    [".config/git"]="git"
 
 	[".vim"]="vim"
 

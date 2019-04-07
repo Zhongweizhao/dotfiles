@@ -1,0 +1,16 @@
+# editor temp files
+*~
+.\#*
+
+# linux
+.nfs*
+
+# windows
+[Dd]esktop.ini
+Thumbs.db
+
+# mac
+.DS_Store
+._*
+.Spotlight-V100
+
