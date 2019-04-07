@@ -4,9 +4,12 @@ declare -A PACKAGES=(
 	[".bash_profile"]="bash/bash_profile"
 	[".bashrc"]="bash/bashrc"
 
+    [".config/compton"]="compton"
 	[".config/i3"]="i3"
 	[".config/i3blocks"]="i3blocks"
     [".config/git"]="git"
+    [".config/termite"]="termite"
+    [".config/dunst"]="dunst"
 
 	[".vim"]="vim"
 
